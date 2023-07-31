@@ -1,0 +1,236 @@
+.check-order-form h1 {
+    text-align: center;
+}
+
+.check-order-form .input {
+    max-width: 500px;
+    margin: 0 auto 25px auto;
+}
+
+.check-order-form .input input {
+    background: #e5e5e5 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #6d6e71;
+}
+
+.check-order-form button {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 60px;
+    background: transparent linear-gradient(179deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.check-order-form {
+    text-align: center;
+}
+
+.check-order-form button:hover {
+    background: #00483d;
+}
+
+
+
+.container {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-home .header {
+    background: #009981;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.box-home .header h4 {
+    padding: 5px 60px 6px 35px;
+    margin: 0 0 0 60px;
+    /* background: #00483d; */
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.box-home .header h4 a {
+    color: #fff;
+
+}
+
+.lts-product {
+    display: flex;
+    flex-flow: wrap;
+    animation: append .2s ease-in-out;
+}
+
+.lts-product .item .img-product {
+    width: 70px;
+    margin: 10px;
+    flex: 1;
+}
+
+
+.lts-product .item .img-product img {
+    width: 100%;
+}
+
+.info {
+    flex: 4;
+}
+
+a.see-inview {
+    margin-right: 40px;
+}
+
+.sticker-left {
+    left: 5px;
+    text-align: left;
+}
+
+.sticker {
+    position: absolute;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lts-product .item .info .price {
+    display: block;
+    clear: both;
+}
+
+.lts-product .item .note {
+    margin: 0;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+}
+
+.lts-product .item .bag {
+    display: inline-block;
+    background: #f7941e 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.text-orange,
+.text-orange * {
+    color: #f7941e;
+}
+
+.lts-product .item .promote {
+    border-radius: 5px;
+    background-image: linear-gradient(#00917a, #079780);
+    padding: 2px;
+    box-shadow: 0 4px 6px #00000029;
+    margin: 3px;
+    position: absolute;
+    top: 50px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 200ms, visibility 200ms;
+    transition: opacity 200ms, visibility 200ms;
+    color: #333;
+}
+
+
+.lts-product .item {
+    margin: 10px 0;
+    width: -webkit-fill-available;
+    background: #fff;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+button.product-details {
+    border: 2px solid green;
+    height: max-content;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: green;
+    padding: 10px;
+}
+
+
+.amount_buy {
+    font-size: 19px;
+    flex: 1;
+}
+
+button.product-details:hover {
+    cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+}
+
+
+.item span.info-bill {
+    flex: 3;
+    display: contents;
+    margin-right: 20px;
+}
+
+.price i,
+.sum-total-my--order i {
+    color: red;
+}
+
+
+.price,
+.title {
+    font-size: 18px;
+}
+
+
+.sum-total-my--order {
+    font-size: 27px;
+    padding: 20px;
+    text-align: end;
+    border-top: 4px solid black;
+    margin: 20px 0;
+}
+
+i.fa-sharp.fa-solid.fa-trash {
+    font-size: 25px;
+    margin-right: 33px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+i.fa-sharp.fa-solid.fa-trash:hover {
+    background-color: red;
+    color: wheat;
+    cursor: pointer;
+}

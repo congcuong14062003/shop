@@ -1,0 +1,82 @@
+#myModal {
+    position: fixed;
+    z-index: 101;
+    top: 20px;
+    left: 35%;
+    display: none;
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#myModal .modal-header {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#myModal p#modal-message {
+    padding: 15px;
+}
+
+#myModal .modal-content {
+    color: white;
+    text-align: center;
+    border: 1px solid #f44336;
+    background-color: black;
+}
+
+#myModal .close_modal {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#myModal .close_modal:hover,
+#myModal .close_modal:focus {
+    color: red;
+    background-color: wheat;
+}
+
+#myModal h2 {
+    margin: 0;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-200%);
+    }
+}
+
+.slide-in {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+ .slide-out {
+    animation-name: slideOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

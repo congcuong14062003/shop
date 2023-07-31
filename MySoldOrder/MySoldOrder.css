@@ -1,0 +1,139 @@
+.check-order-form h1 {
+    text-align: center;
+}
+
+.check-order-form .input {
+    max-width: 500px;
+    margin: 0 auto 25px auto;
+}
+
+.check-order-form .input input {
+    background: #e5e5e5 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #6d6e71;
+}
+
+.check-order-form button {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 60px;
+    background: transparent linear-gradient(179deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.check-order-form {
+    text-align: center;
+}
+
+.check-order-form button:hover {
+    background: #00483d;
+}
+
+
+
+.container {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-home .header {
+    background: #009981;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.box-home .header h4 {
+    padding: 5px 60px 6px 35px;
+    margin: 0 0 0 60px;
+    /* background: #00483d; */
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.box-home .header h4 a {
+    color: #fff;
+
+}
+
+.lts-product {
+    display: flex;
+    flex-flow: wrap;
+    animation: append .2s ease-in-out;
+}
+
+.sticker-left {
+    left: 5px;
+    text-align: left;
+}
+
+.sticker {
+    position: absolute;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.text-orange,
+.text-orange * {
+    color: #f7941e;
+}
+
+
+
+
+
+.sum-total-my--order {
+    font-size: 27px;
+    padding: 20px;
+    text-align: end;
+    border-top: 4px solid black;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: antiquewhite;
+}
+
+th {
+    background-color: #007eda;
+    color: white;
+}
+
+tr {
+    background-color: #ddd;
+}
